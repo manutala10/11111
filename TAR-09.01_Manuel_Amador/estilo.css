@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+header
+{
+    background-image: url("marca.png");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 75px;
+}
+#nav1 nav
+{
+    clear: left;
+}
+#nav1 nav ul
+{
+    display: flex;
+    border:1px solid black;
+    list-style-type: none;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    width: 350px;
+    background-color: #E20123;
+    font-weight: bold;
+}
+
+#nav1 nav li{
+    flex-grow:1 ;
+    border: 1px solid black;
+    height: 1.5em;
+}
+#principal nav ul
+{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    height: 600px;
+    font-size: 1.5em;
+    color: red;
+    background-color: white;
+    font-weight: bold;
+}
+#principal #columna nav ul li
+{
+    width:198px ;
+    border: 1px solid black;
+    height: 110px;
+    align-items: center;
+    padding-top: 20%;
+    flex-grow:4;
+    flex-shrink:2;
+}
+#principal nav
+{
+    float: left;
+    height: 600px;
+}
+#columna
+{
+    display: flex;
+    height: 600px;
+    width: 200px;
+    float: left;
+    flex-direction: column;
+}
+
+#contenedor
+{
+    float: left;
+    padding: 10px 10px;
+    margin: 1em 45px;
+    border: 1px solid black;
+    width:948px;
+    height: 500px;
+}
